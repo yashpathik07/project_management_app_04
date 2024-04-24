@@ -1,0 +1,27 @@
+#noProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 600px;
+}
+
+#noProject img {
+    display: block;
+    width: 100px;
+    aspect-ratio: 1;
+    margin-top: 2rem;
+}
+
+#noProject h2 {
+    text-transform: capitalize;
+    color: #0b4349;
+    margin-top: 2rem;
+}
+
+#noProject p {
+    color: #3d595c;
+    font-size: 0.8rem;
+    margin-block: 0.7rem;
+}

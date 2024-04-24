@@ -1,0 +1,32 @@
+#input {
+    margin-block-start: 1.5rem;
+}
+
+#input label {
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    color: #032e33;
+}
+
+#input input {
+    width: 98%;
+    padding: 0.3rem;
+    background-color: #dae2e1;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #474b4a;
+    border-radius: 2px;
+}
+
+#input textarea {
+    width: 588px;
+    padding: 0.3rem;
+    background-color: #dae2e1;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #474b4a;
+    border-radius: 2px;
+}

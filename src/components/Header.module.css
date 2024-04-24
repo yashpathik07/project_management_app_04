@@ -1,0 +1,28 @@
+#header {
+    margin-inline: 2rem;
+    margin-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header img {
+    max-width: 120px;
+    cursor: pointer;
+}
+
+#header ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+#header li a {
+    text-decoration: none;
+    color: #011f22;
+    transition: 0.3s;
+}
+
+#header li a:hover {
+    color: #04899b;
+}

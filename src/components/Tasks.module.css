@@ -1,0 +1,35 @@
+#tasks h2 {
+    color: #061f22;
+}
+
+#tasks p {
+    margin-block: 1rem;
+}
+
+#tasks ul {
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #c9dad8;
+    border-radius: 7px;
+    margin-top: 3rem;
+}
+
+#tasks ul li {
+    margin-block: 0.4rem;
+    color: #061f22;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tasks ul li button {
+    border: none;
+    background: transparent;
+    text-transform: capitalize;
+    color: #061f22;
+    height: 20px;
+    cursor: pointer;
+}
+
+#tasks ul li button:hover {
+    color: red;
+}
